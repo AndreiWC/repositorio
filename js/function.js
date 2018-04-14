@@ -1,6 +1,3 @@
-  function mostrarGenero(){
-  alert('O valor selecionado é '+ getRadioValor('genero'));
- }
   
  function getRadioValor(name){
   var rads = document.getElementsByName(name);
@@ -14,6 +11,7 @@
    
   return null;
  }
+ 
  
 
 function enviar(){
